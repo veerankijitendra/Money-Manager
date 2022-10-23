@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.title-amount-type-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 0 10px;
+  width: 100%;
+  align-items: center;
+}
+.mh-heading {
+  font-weight: bold;
+}
+.mh-elements {
+  flex-shrink: 0;
+  padding: 0;
+  min-width: 25%;
+  flex-grow: 1;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+.bt-none {
+  border-top: none;
+}
+.image {
+  height: 1.2rem;
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete-button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,84 @@
+.bg-money-manager {
+  padding: 2rem 4rem;
+}
+.heading-container {
+  height: 10rem;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 8px;
+}
+.richard-heading {
+  margin: 0;
+  font-size: 2rem;
+}
+.heading-card-description {
+  font-size: 1rem;
+}
+.money-details-list-containers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.form-and-history-containers {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+}
+.add-transaction-form {
+  border: 1px solid black;
+  height: 25rem;
+  width: 18rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.input-text {
+  height: 2rem;
+}
+.button {
+  height: 2rem;
+  width: 6rem;
+}
+.history-container {
+  border: 1px solid black;
+  height: 25rem;
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.title-amount-type-container-list {
+  list-style-type: none;
+  padding: 0;
+}
+.title-amount-type-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 0 10px;
+  width: 100%;
+  align-items: center;
+}
+.mh-heading {
+  font-weight: bold;
+}
+.mh-elements {
+  flex-grow: 1;
+  padding: 0;
+  min-width: 25%;
+}

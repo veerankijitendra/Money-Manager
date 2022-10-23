@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.image-balance-container {
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 16px;
+  height: 8rem;
+  width: 20rem;
+}
+.money-details-image {
+  height: 3.5rem;
+  width: 3.5rem;
+}
